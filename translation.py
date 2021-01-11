@@ -1,9 +1,11 @@
 class Translation(object):
     START_TEXT = """Welcome,
          I'm A Simple but POWERFUL You Tube URL Uploader Bot With Permanent Thumbnail Support 💯...
+
 <b>Please send me a You Tube video Link, I can upload to telegram as File/Video...</b>
-👉 <a href="https://t.me/kalam_url_bot">My God Father can do lot of Things more than Me...</a> 💯
+
 /help for more details about me...
+
 <b>Developer : © @Kalam_Company</b>"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = "To succeed in your mission, you must have a single-minded devotion to your goal."
