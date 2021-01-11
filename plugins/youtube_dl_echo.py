@@ -13,7 +13,7 @@ import json
 import math
 import os
 import time
-from PIL import Image
+
 # the secret configuration specific things
 if bool(os.environ.get("WEBHOOK", False)):
     from sample_config import Config
@@ -30,34 +30,22 @@ from helper_funcs.chat_base import TRChatBase
 from helper_funcs.display_progress import humanbytes
 from helper_funcs.help_uploadbot import DownLoadFile
 
-from pyrogram import ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton
-from pyrogram.errors import UserNotParticipant, UserBannedInChannel
 
 @pyrogram.Client.on_message(pyrogram.Filters.regex(pattern=".*http.*"))
 async def echo(bot, update):
     if update.from_user.id in Config.BANNED_USERS:
-        await update.reply_text("You are B A N N E D 🤣🤣🤣🤣")
+        await bot.delete_messages(
+            chat_id=update.chat.id,
+            message_ids=update.message_id,
+            revoke=True
+        )
         return
+    # logger.info(update)
     TRChatBase(update.from_user.id, update.text, "/echo")
-    update_channel = Config.UPDATE_CHANNEL
-    if update_channel:
-        try:
-            user = await bot.get_chat_member(update_channel, update.chat.id)
-            if user.status == "kicked":
-               await update.reply_text("🤭 Sorry Dude, You are **B A N N E D 🤣🤣🤣**")
-               return
-        except UserNotParticipant:
-            #await update.reply_text(f"Join @{update_channel} To Use Me")
-            await update.reply_text(
-                text="**Join My Updates Channel to use ME 😎 🤭**",
-                reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
-              ])
-            )
-            return
-        except Exception:
-            await update.reply_text("Something Wrong. Contact my Support Group")
-            return
+    # await bot.send_chat_action(
+    #     chat_id=update.chat.id,
+    #     action="typing"
+    # )
     logger.info(update.from_user)
     url = update.text
     youtube_dl_username = None
@@ -117,6 +105,9 @@ async def echo(bot, update):
             "-j",
             url
         ]
+    if "hotstar" in url:
+        command_to_exec.append("--geo-bypass-country")
+        command_to_exec.append("IN")
     if youtube_dl_username is not None:
         command_to_exec.append("--username")
         command_to_exec.append(youtube_dl_username)
@@ -273,18 +264,13 @@ async def echo(bot, update):
         thumb_image_path = DownLoadFile(
             thumbnail_image,
             Config.DOWNLOAD_LOCATION + "/" +
-            str(update.from_user.id) + ".webp",
+            str(update.from_user.id) + ".jpg",
             Config.CHUNK_SIZE,
             None,  # bot,
             Translation.DOWNLOAD_START,
             update.message_id,
             update.chat.id
         )
-        if os.path.exists(thumb_image_path):
-            im = Image.open(thumb_image_path).convert("RGB")
-            im.save(thumb_image_path.replace(".webp", ".jpg"), "jpeg")
-        else:
-            thumb_image_path = None
         await bot.send_message(
             chat_id=update.chat.id,
             text=Translation.FORMAT_SELECTION.format(thumbnail) + "\n" + Translation.SET_CUSTOM_USERNAME_PASSWORD,
