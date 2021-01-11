@@ -1,23 +1,22 @@
-## Kalam URL Uploader Bot
----
+## Made from [AnyDLBot](https://telegram.dog/AnyDLBot)
 
-An Open Source ALL-In-One Telegram RoBot, that can do lot of things.
+ALL CREDITS GOES TO THE BELOVED DEVELOPERS :)
+
+
+**My Features**:
+
+👉 All Supported Video Formats of https://rg3.github.io/youtube-dl/supportedsites.html
+
+👉 Upload as file from any HTTP link
+
+👉 Added HOTSTAR Link Support!!
 
 ### Installation
 
+#### The Easiest Way
+
+**upgrade** your subscription for [@AnyDLBot](https://telegram.dog/AnyDLBot) without having to run anything on your own
+
 #### The Easy Way
 
-#### You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
-
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/Kalam-Company/Kalam-URL)
-
-#### The Hard Way
-
-```sh
-virtualenv -p python3 VENV
-. ./VENV/bin/activate
-pip install -r requirements.txt
-cp sample_config.py config.py
---- EDIT config.py values appropriately ---
-python bot.py
-```
