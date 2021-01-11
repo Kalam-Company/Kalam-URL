@@ -1,58 +1,63 @@
 class Translation(object):
-    START_TEXT = """Hello,
-This is a Telegram URL Upload Bot!
-
-<b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
-
-/help for more details..
-
-Support Group : @InFoTelGroup
-© @SpEcHlDe , @TGBotsZ & @CWProjects"""
+    START_TEXT = """Welcome,
+         I'm A Simple but POWERFUL You Tube URL Uploader Bot With Permanent Thumbnail Support 💯...
+<b>Please send me a You Tube video Link, I can upload to telegram as File/Video...</b>
+👉 <a href="https://t.me/kalam_url_bot">My God Father can do lot of Things more than Me...</a> 💯
+/help for more details about me...
+<b>Developer : © @Kalam_Company</b>"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
-    ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
-    FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
-    SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
-URL | filename | username | password"""
+    ABS_TEXT = "To succeed in your mission, you must have a single-minded devotion to your goal."
+    UPGRADE_TEXT = "Join to my Developer channel © @Kalam_Company for upgrade your plan...  /help for more Details"
+    FORMAT_SELECTION = """👇Please Select any one Desired Format👇
+ <b>📸 🎥 SVIDEO</b>- Send as Streaming Video format with screenshots
+ <b>🎥   VIDEO</b> - Send as Stream format without Screenshots
+ <b>📸 📁 SFILE</b> - Send as File format with Screenshots
+ <b>📁   FILE</b>  - Send as File format without Screenshots
+<b>If, You want to Set custom Thumbnail, Send photo before or quickly after tapping on any of the below buttons.\n\nYou can use /deletethumbnail to delete the auto-generated thumbnail.</b>"""
+    SET_CUSTOM_USERNAME_PASSWORD = "\n 🙏*Thank you For UsiNg Me*🙏"
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = "trying to download"
-    UPLOAD_START = "trying to upload"
+    DOWNLOAD_START = "⬇️ DownloadiNg... To my Server"
+    UPLOAD_START = "⬆️ UploadiNg... to Telegram 📤 \n\n<b>🔄 Processing:-</b>"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. Join : @TGBotsZ"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nJoin : @TGBotsZ \nUploaded in {} seconds."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. Join : @Kalam_Company"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "<b>Downloaded in {} seconds \nUploaded in {} seconds</b> \n\n'To Succeed in your mission, You must have a single-minded devotion to your Goal' \n - <a href="https://www.google.com/search?kgmid=/m/0gy3f&hl=en-IN&q=A.+P.+J.+Abdul+Kalam&kgs=4404b33dd047f477&shndl=0&source=sh/x/kp/osrp&entrypoint=sh/x/kp/osrp">Dr. A.P.J. Abdul Kalam</a> \n\n😅 Sorry, For the Delay of Upload 🥺"
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
-    SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
+    SAVED_CUSTOM_THUMB_NAIL = "✅ Custom Permanent Thumbnail saved. \n\n /deletethumbnail To Delete this Thumbnail"
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
-    SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
+    SAVED_RECVD_DOC_FILE = "✅ Document Downloaded Successfully."
     CUSTOM_CAPTION_UL_FILE = " "
-    NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
-    NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
+    NO_CUSTOM_THUMB_NAIL_FOUND = "❌️ No Custom ThumbNail found."
+    NO_VOID_FORMAT_FOUND = "❌️ ERROR... \n Couldn't Download from the given link said: {}"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     CURENT_PLAN_DETAILS = """Current plan details
 --------
 Telegram ID: <code>{}</code>
 Plan name: Free Cloned User
 Expires on: 31/12/2020"""
-    HELP_USER = """Hai am URL Uploader bot..
+    HELP_USER = """Hai, I am You TubeURL Uploader bot...
     
-1. Send url (Link|New Name with Extension).
-2. Send Custom Thumbnail (Optional).
-3. Select the button.
-   SVideo - Give File as video with Screenshots
-   DFile  - Give File with Screenshots
-   Video  - Give File as video without Screenshots
-   DFile  - Give File without Screenshots
-   
-<b>👉 Create own Clone Bot :</b> 👉 <a href="https://youtu.be/QkAkSLBgoYw">Diploy</a>
+<b>It's not Difficult to Use Me!!! 😅
 
+Follow Steps... 👇👇👇</b>
+
+⛳️ Send url (Link | New Name of the file with Extension)
+⛳️ Send your Custom Thumbnail (Optional)
+⛳️ Select any one Forward 👇
+   SVIDEO - Send as Streaming Video format with Screenshots
+   VIDEO  - Send as Streaming Video format without Screenshots
+   SFILE  - Send as File format with Screenshots
+   FILE   - Send as File format without Screenshots
+   
 --------
+
 Send /me to know current plan details
 
-Support Group : @InFoTelGroup
-© @TGBotsZ"""
+<a href="https://www.youtube.com/channel/UC1dgbRIE-X1viE8nG_3006w">Subscribe our official Music Channel</a>
+
+<b>Developed by © @Kalam_Company</b>"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
