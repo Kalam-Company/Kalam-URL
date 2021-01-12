@@ -1,19 +1,23 @@
 class Translation(object):
     START_TEXT = """Hello,
-This is a Telegram URL Upload Bot made by @prgofficial
+I am a Telegram URL Uploader Bot...💯
 
-<b>Please send me any Direct download URL link, I can upload to telegram as File/Video</b>
+<b>Please send me any Direct Download URL link, I can upload to Telegram</b>
 
-/help for more details..
+/help for more details...
 
-Support Group : @moviesonlydiscussion
-© @prgofficial"""
+<b>Developer:- © @Kalam_Company</b>"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
-    FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
-    SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
-URL | filename | username | password"""
+    UPGRADE_TEXT = "<b>Just Join to my God channel 👉 @Kalam_Company</b>"
+    FORMAT_SELECTION = """👇Please Select any one Desired Format👇
+
+ <b>📸 🎥 SVIDEO</b>- Send as Streaming Video format with screenshots
+ <b>🎥   VIDEO</b> - Send as Stream format without Screenshots
+ <b>📸 📁 SFILE</b> - Send as File format with Screenshots
+ <b>📁   FILE</b>  - Send as File format without Screenshots
+<b>If, You want to Set custom Thumbnail, Send photo before or quickly after tapping on any of the below buttons.\n\nYou can use /deletethumbnail to delete the auto-generated thumbnail.</b>"""
+    SET_CUSTOM_USERNAME_PASSWORD = "\n 🙏*Thank you For UsiNg Me*🙏"
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     DOWNLOAD_START = "trying to download"
     UPLOAD_START = "trying to upload"
