@@ -21,7 +21,7 @@ class Translation(object):
 
 👉 <b>All other Movie Websites are Supported</b>
 
-🔥 """
+🔥 <a href="https://ytdl-org.github.io/youtube-dl/supportedsites.html">Click Here to know other Supported Websites</a>"""
     FORMAT_SELECTION = """Please Select any one Desired Format👇
 
  <b> SVIDEO</b>- Send as Video format with screenshots
@@ -69,7 +69,16 @@ Expires on: Endless"""
 
 <a href="https://www.youtube.com/channel/UC1dgbRIE-X1viE8nG_3006w">Subscribe our official Music Channel</a>
 
-<b>Developed by © @Kalam_Company</b>"""
+<b>Developer:- © @Kalam_Company</b>
+
+Feedback:- @Kalam_Feedback_Bot"""
+    ABOUT_TEXT = """⭕️ My Name:- Kalam URL UploadeR
+
+🔥 Creater:- © @Kalam_Company 
+
+📖 Language:- <code>Python3</code>
+
+🥳 My Birthday:- 14.01.2021"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
