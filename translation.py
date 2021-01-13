@@ -22,17 +22,17 @@ class Translation(object):
 👉 <b>All other Movie Websites are Supported</b>
 
 🔥 <a href="https://ytdl-org.github.io/youtube-dl/supportedsites.html">Click Here to know other Supported Websites</a>"""
-    FORMAT_SELECTION = """Please Select any one Desired Format👇
+    FORMAT_SELECTION = """Select any one Desired Format 👇👇👇
 
  <b> SVIDEO</b>- Send as Video format with screenshots
  <b> VIDEO</b> - Send as Video format without Screenshots
  <b> SFILE</b> - Send as File format with Screenshots
  <b> FILE</b>  - Send as File format without Screenshots
 
-<b>If, You want to Set custom Thumbnail, Send photo before or quickly after tapping on any of the below buttons.\n\nYou can use /deletethumbnail to delete the auto-generated thumbnail.</b>"""
+<b>If, You want to Set custom Thumbnail, Send photo before or quickly after tapping on any of the below buttons.</b>"""
     SET_CUSTOM_USERNAME_PASSWORD = "\n 🙏*Thank you For UsiNg Me*🙏"
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = "⬇️ DownloadiNg... <code>Please Wait</code>"
+    DOWNLOAD_START = "⬇️ DownloadiNg... to my Sever 📥 \n\n<code>Please Wait</code>"
     UPLOAD_START = "⬆️ UploadiNg... to Telegram as your wish \n\n<b>🔄 Processing:-</b>"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
@@ -40,19 +40,19 @@ class Translation(object):
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "<b>Downloaded in {} seconds \nUploaded in {} seconds</b> \n\n<code>To Succeed in your mission, You must have a single-minded devotion to your Goal</code> \n- <a href='https://g.co/kgs/5mpnK2'>Dr. A.P.J. Abdul Kalam</a> \n\n😅 Sorry, For the Delay of Upload 🥺"
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription..."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.me/Kalam_Feedback_Bot'>@Kalam_Company</a>"
-    SAVED_CUSTOM_THUMB_NAIL = "✅️ Custom video / file thumbnail saved. This image will be used in the video / file."
+    SAVED_CUSTOM_THUMB_NAIL = "✅️ <b>Custom Permanent Thumbnail saved.</b> \n\n /deletethumbnail to Delete this Thumbnail..."
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
     SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
     CUSTOM_CAPTION_UL_FILE = " "
     NO_CUSTOM_THUMB_NAIL_FOUND = "❌️ No Custom ThumbNail found."
-    NO_VOID_FORMAT_FOUND = "❌️ ERROR...\n\n<b>Couldn't Download from the given link‼️</b> \n\nPlease Check & Try again....."
+    NO_VOID_FORMAT_FOUND = "❌️ ERROR...\n\n     <b>Couldn't Download from the given link‼️</b> \n\nPlease Check & Try again....."
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     CURENT_PLAN_DETAILS = """Current plan details
 --------
-Telegram ID: <code>{}</code>
-Plan name: Free User
-Expires on: Endless"""
+Telegram ID:- <code>{}</code>
+Plan name  :- Free User
+Expires on :- Endless....."""
     HELP_USER = """<b>Hai, Follow these Steps...</b>
     
 1. Send Custom Thumbnail (It will be saved permenantly!)
