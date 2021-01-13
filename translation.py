@@ -19,10 +19,10 @@ class Translation(object):
 ⭕️ Isaimini
 ⭕️ Tamilrockers
 
-👉 <b>All other Movie Websites are Supported</b>
+👉 <b>All other Movie Websites are Supported to use.....💯</b>
 
 🔥 <a href="https://ytdl-org.github.io/youtube-dl/supportedsites.html">Click Here to know other Supported Websites</a>"""
-    FORMAT_SELECTION = """Select any one Desired Format 👇👇👇
+    FORMAT_SELECTION = """👇 Select any one Desired Format 👇
 
  <b> SVIDEO</b>- Send as Video format with screenshots
  <b> VIDEO</b> - Send as Video format without Screenshots
@@ -37,10 +37,10 @@ class Translation(object):
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "Join 🔜 @Kalam_Company"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "<b>Downloaded in {} seconds \nUploaded in {} seconds</b> \n\n<code>To Succeed in your mission, You must have a single-minded devotion to your Goal</code> \n- <a href='https://g.co/kgs/5mpnK2'>Dr. A.P.J. Abdul Kalam</a> \n\n😅 Sorry, For the Delay of Upload 🥺"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "<b>Downloaded in {} seconds \nUploaded in {} seconds</b> \n\n'To Succeed in your mission, You must have a single-minded devotion to your Goal' \n- <a href='https://g.co/kgs/5mpnK2'>Dr. A.P.J. Abdul Kalam</a> \n\n😅 Sorry, For the Delay of Upload 🥺"
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription..."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.me/Kalam_Feedback_Bot'>@Kalam_Company</a>"
-    SAVED_CUSTOM_THUMB_NAIL = "✅️ <b>Custom Permanent Thumbnail saved.</b> \n\n /deletethumbnail to Delete this Thumbnail..."
+    SAVED_CUSTOM_THUMB_NAIL = "✅️ <b>Custom Permanent Thumbnail saved.</b> \n\n /delthumb to Delete this Thumbnail..."
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
     SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
