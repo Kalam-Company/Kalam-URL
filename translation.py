@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """Hello,
+    START_TEXT = """Welcome,
 I am a Powerful Telegram URL Uploader Bot...💯
 
 <b>Please send me any Direct Download URL link, I can upload to Telegram</b>
@@ -32,31 +32,31 @@ I am a Powerful Telegram URL Uploader Bot...💯
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
     SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
     CUSTOM_CAPTION_UL_FILE = " "
-    NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
-    NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
+    NO_CUSTOM_THUMB_NAIL_FOUND = "❌️ No Custom ThumbNail found."
+    NO_VOID_FORMAT_FOUND = "❌️ ERROR...\n<b>Couldn't Download from the given link❗️❗️❗️</b> said: {}"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     CURENT_PLAN_DETAILS = """Current plan details
 --------
 Telegram ID: <code>{}</code>
 Plan name: Free User
 Expires on: Endless"""
-    HELP_USER = """Hai am URL Uploader bot..
+    HELP_USER = """<b>Hai, Follow these Steps...</b>
     
-1. Send url (Link|New Name with Extension).
-2. Send Custom Thumbnail (Optional).
-3. Select the button.
-   SVideo - Give File as video with Screenshots
-   DFile  - Give File with Screenshots
-   Video  - Give File as video without Screenshots
-   DFile  - Give File without Screenshots
-   
-<b>👉 Join For New Movies :</b> 👉 <a href="https://t.me/joinchat/AAAAAEw1pO1bBX6ylAb0hQ">JOIN</a>
+1. Send Custom Thumbnail (It will be saved permenantly!)
 
---------
-Send /me to know current plan details
+2. Send your url and select desired option.
 
-Support Group : @MoviEzoNlysuppOrT
-© @MovieZonlYheRe"""
+3. For custom name, send your url like --> url|New Name.Extension)
+
+   Eg:- link|newname.mkv
+
+-------------
+
+/supported_links to know which links are supported to use...
+
+<a href="https://www.youtube.com/channel/UC1dgbRIE-X1viE8nG_3006w">Subscribe our official Music Channel</a>
+
+<b>Developed by © @Kalam_Company</b>"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
@@ -70,7 +70,7 @@ Support Group : @MoviEzoNlysuppOrT
     REPLY_TO_DOC_OR_LINK_FOR_RARX_SRT = "Reply to a Telegram media (MKV), to extract embedded streams"
     REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Reply /generatecustomthumbnail to a media album, to generate custom thumbail"
     ERR_ONLY_TWO_MEDIA_IN_ALBUM = "Media Album should contain only two photos. Please re-send the media album, and then try again, or send only two photos in an album."
-    INVALID_UPLOAD_BOT_URL_FORMAT = "URL format is incorrect. make sure your url starts with either http:// or https://. You can set custom file name using the format link | file_name.extension"
+    INVALID_UPLOAD_BOT_URL_FORMAT = "❌️ URL format is incorrect. \n\n<b>Make sure your url starts with either http:// or https://.</b> \n\nYou can set custom file name using the format link | file_name.extension"
     ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /me to remove this restriction."
     FF_MPEG_RO_BOT_AD_VER_TISE_MENT = "https://telegram.dog/FFMpegRoBot"
     EXTRACT_ZIP_INTRO_ONE = "Send a compressed file first, Then reply /unzip command to the file."
