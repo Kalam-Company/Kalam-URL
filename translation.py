@@ -32,7 +32,7 @@ class Translation(object):
 <b>If, You want to Set custom Thumbnail, Send photo before or quickly after tapping on any of the below buttons.</b>"""
     SET_CUSTOM_USERNAME_PASSWORD = "\n 🙏*Thank you For UsiNg Me*🙏"
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = "⬇️ DownloadiNg... to my Sever 📥 \n\n<code>Please Wait</code>"
+    DOWNLOAD_START = "⬇️ DownloadiNg... to my Server"
     UPLOAD_START = "⬆️ UploadiNg... to Telegram as your wish \n\n<b>🔄 Processing:-</b>"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
@@ -46,7 +46,7 @@ class Translation(object):
     SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
     CUSTOM_CAPTION_UL_FILE = " "
     NO_CUSTOM_THUMB_NAIL_FOUND = "❌️ No Custom ThumbNail found."
-    NO_VOID_FORMAT_FOUND = "❌️ ERROR...\n\n     <b>Couldn't Download from the given link‼️</b> \n\nPlease Check & Try again....."
+    NO_VOID_FORMAT_FOUND = "❌️ ERROR..... ❌️\n\n     <b>Couldn't Download from the given link‼️</b> \n\nPlease Check & Try again....."
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     CURENT_PLAN_DETAILS = """Current plan details
 --------
