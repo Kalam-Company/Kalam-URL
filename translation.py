@@ -1,6 +1,6 @@
 class Translation(object):
-    START_TEXT = """Welcome,
-I am a Powerful Telegram URL Uploader Bot...💯
+    START_TEXT = """<b>Welcome</b>,
+         I am a Simple but Powerful Telegram URL Uploader Bot with Permanent Thumbnail Support...💯
 
 <b>Please send me any Direct Download URL link, I can upload to Telegram</b>
 
@@ -9,18 +9,31 @@ I am a Powerful Telegram URL Uploader Bot...💯
 <b>Developer:- © @Kalam_Company</b>"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "<b>Just Join to my God channel 👉 @Kalam_Company</b>"
-    FORMAT_SELECTION = """👇Please Select any one Desired Format👇
+    UPGRADE_TEXT = """<b>Supported Links:-</b>
+
+⭕ Twitter 
+⭕️ You Tube
+⭕️ Face Book
+⭕️ Instagram
+⭕️ Hot Star 
+⭕️ Isaimini
+⭕️ Tamilrockers
+
+👉 <b>All other Movie Websites are Supported</b>
+
+🔥 """
+    FORMAT_SELECTION = """Please Select any one Desired Format👇
 
  <b> SVIDEO</b>- Send as Video format with screenshots
  <b> VIDEO</b> - Send as Video format without Screenshots
  <b> SFILE</b> - Send as File format with Screenshots
  <b> FILE</b>  - Send as File format without Screenshots
+
 <b>If, You want to Set custom Thumbnail, Send photo before or quickly after tapping on any of the below buttons.\n\nYou can use /deletethumbnail to delete the auto-generated thumbnail.</b>"""
     SET_CUSTOM_USERNAME_PASSWORD = "\n 🙏*Thank you For UsiNg Me*🙏"
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = "⬇️ DownloadiNg... Please Wait 🙏"
-    UPLOAD_START = "⬆️ UploadiNg... to Telegram 📤 \n\n<b>🔄 Processing:-</b>"
+    DOWNLOAD_START = "⬇️ DownloadiNg... <code>Please Wait</code>"
+    UPLOAD_START = "⬆️ UploadiNg... to Telegram as your wish \n\n<b>🔄 Processing:-</b>"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "Join 🔜 @Kalam_Company"
@@ -33,7 +46,7 @@ I am a Powerful Telegram URL Uploader Bot...💯
     SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
     CUSTOM_CAPTION_UL_FILE = " "
     NO_CUSTOM_THUMB_NAIL_FOUND = "❌️ No Custom ThumbNail found."
-    NO_VOID_FORMAT_FOUND = "❌️ ERROR...\n<b>Couldn't Download from the given link❗️❗️❗️</b> said: {}"
+    NO_VOID_FORMAT_FOUND = "❌️ ERROR...\n\n<b>Couldn't Download from the given link‼️</b> \n\nPlease Check & Try again....."
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     CURENT_PLAN_DETAILS = """Current plan details
 --------
