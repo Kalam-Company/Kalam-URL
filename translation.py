@@ -67,9 +67,7 @@ Expires on :- Endless....."""
 
 /supported_links to know which links are supported to use...
 
-<a href="https://www.youtube.com/channel/UC1dgbRIE-X1viE8nG_3006w">Subscribe our official Music Channel</a>
-
-<b>Developer:- © @Kalam_Company</b>
+<a href="https://www.youtube.com/channel/UC1dgbRIE-X1viE8nG_3006w"><b>Subscribe our official Music Channel</b></a>
 
 Feedback:- @Kalam_Feedback_Bot"""
     ABOUT_TEXT = """⭕️ My Name:- Kalam URL UploadeR
